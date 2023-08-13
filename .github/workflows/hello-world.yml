@@ -5,5 +5,5 @@ jobs:
   say:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v3
-      run: make hello-world
+      - uses: actions/checkout@v3
+      - run: make hello-world
